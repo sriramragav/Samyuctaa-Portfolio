@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About – Samyuctaa Sriram</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <style>
+    .about-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      align-items: flex-start;
+      margin: 40px;
+    }
+
+    .about-text {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    .about-image {
+      flex: 1;
+      min-width: 200px;
+      max-width: 300px;
+    }
+
+    .about-image img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .skills {
+      margin: 40px;
+    }
+
+    .skill-badge {
+      display: inline-block;
+      background-color: #e2e8f0;
+      color: #2d3748;
+      border-radius: 20px;
+      padding: 6px 14px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .about-wrapper {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="reflections.html">Reflections</a> |
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="about-wrapper">
+      <div class="about-text">
+        <h2>Hello, I'm Samyuctaa 👋</h2>
+        <p>
+          I'm a final-year Computer Science undergraduate at the College of Engineering, Guindy — one of India’s oldest and most prestigious engineering institutions. I was born in Bellevue, WA and raised in Chennai, where technology and storytelling were everyday conversations growing up.
+        </p>
+        <p>
+          From solving production issues during my internship at Visa to leading student-run organizations on campus, I’ve always gravitated toward work that blends logic and leadership. My goal is to continue growing at that intersection — and eventually pursue an MBA to expand my impact at scale.
+        </p>
+        <p>
+          I’ve built this portfolio as a personal reflection space: to document what I’ve built, what I’ve learned, and where I hope to go next.
+        </p>
+      </div>
+
+      <div class="about-image">
+        <img src="images/samyuctaa.jpg" alt="Samyuctaa Sriram" />
+      </div>
+    </div>
+
+    <section class="skills">
+      <h3>Tools & Tech I Work With</h3>
+      <span class="skill-badge">Python</span>
+      <span class="skill-badge">C++</span>
+      <span class="skill-badge">Git</span>
+      <span class="skill-badge">SQL</span>
+      <span class="skill-badge">HTML/CSS</span>
+      <span class="skill-badge">JavaScript</span>
+      <span class="skill-badge">GitHub</span>
+      <span class="skill-badge">VS Code</span>
+      <span class="skill-badge">Figma</span>
+      <span class="skill-badge">PowerPoint</span>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Samyuctaa Sriram</p>
+  </footer>
+</body>
+</html>
